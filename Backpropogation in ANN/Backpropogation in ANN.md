@@ -19,6 +19,7 @@ Backpropagation is a fundamental algorithm used for training artificial neural n
 ### Mathematical Formulation
 
 ![alt text](images/image.png)
+
 where f is the activation function, zᵢˡ is the net input of neuron i in layer l, wᵢⱼˡ is the connection weight between neuron j in layer l — 1 and neuron i in layer l, and bᵢˡ is the bias of neuron i in layer l.
 
 ## Backward propogation
@@ -35,10 +36,12 @@ where f is the activation function, zᵢˡ is the net input of neuron i in layer
 
 
 - For each weight 𝑤 in the network, the gradient of the loss L with respect to w is computed as:
+  
 
   ![alt text](<images/Screenshot 2024-07-15 193248.png>)
 
 - Weights are updated using the gradient descent algorithm:
+ 
 ![alt text](<images/image-1.png>)
 
 # Backpropogation from scratch
